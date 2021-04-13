@@ -1,7 +1,5 @@
 <footer id="footer">
-<?php 
-    wp_footer();
-    ?>
+
 			<div class="container">
 				<div class="row top">
 					<div class="col-xs-12 col-sm-6 col-md-4">
@@ -51,6 +49,10 @@
 
 	<!-- <script src="js/script.js"></script> -->
     <script src="<?php echo get_template_directory_uri(). '/script.js'?>"></script>
+
+<?php 
+wp_footer();
+?>
 
 </body>
 </html>
