@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>Labb 1</title>
+	<title><?php 
+    wp_title();
+    ?></title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(). '/style.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(). '/font-awesome.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(). '/bootstrap.css' ?>">
