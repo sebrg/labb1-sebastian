@@ -3,7 +3,7 @@ get_header();
 ?>
 		<main>
         <?php 
-         while ( have_posts() ) {
+         while ( have_posts() ) { // startar loop
             the_post();
         ?>
 			<section>
@@ -25,7 +25,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-            <?php 
+            <?php  // avslutar loop
             } 
             ?>
 		</main>

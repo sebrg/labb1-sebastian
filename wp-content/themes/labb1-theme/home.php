@@ -4,6 +4,7 @@ get_header();
 
 <main>
 			<section>
+
 				<div class="container">
 					<div class="row">
 						<div id="primary" class="col-xs-12 col-md-9">
@@ -17,7 +18,7 @@ get_header();
 							<article>
 								<img src="<?php the_post_thumbnail_url(); ?>">
 								<h2 class="title">
-									<a href="inlagg.html">
+									<a href="<?php the_permalink();?>">
                                     <?php 
                                 the_title();
                                     ?></a>
@@ -131,6 +132,7 @@ get_header();
 					</div>
 				</div>
 			</section>
+			
 		</main>
 
 
