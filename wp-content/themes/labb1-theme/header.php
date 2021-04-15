@@ -24,7 +24,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-8 col-sm-6">
-						<a class="logo" href="index.html">Labb 1</a>
+						<a class="logo" href="<?php echo get_bloginfo('url'); ?>"><?php echo get_bloginfo('name'); //webURL & namn till header ?></a> 
 					</div>
 					<div class="col-sm-6 hidden-xs">
 						<form id="searchform" class="searchform">
@@ -62,7 +62,7 @@
 						<ul class="menu">
 							<li class="current-menu-item">
                             <?php 
-                            wp_nav_menu();
+                            wp_nav_menu(); //header meny
                             ?>
 							</li>
 						</ul>

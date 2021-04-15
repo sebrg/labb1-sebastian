@@ -14,7 +14,7 @@ get_header();
 				the_post(); 
 			?>
 				<article>
-					<img src="<?php get_the_post_thumbnail_url()?>"/>
+					<img src="<?php the_post_thumbnail_url()?>"/>
 					<h2 class="title">
 						<a href="<?php the_permalink();?>"><?php the_title();?></a>
 					</h2>

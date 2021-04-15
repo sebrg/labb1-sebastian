@@ -45,7 +45,7 @@ get_header();
 								</ul>
 								<p> 
                                     <?php 
-                                the_excerpt();
+                                the_excerpt(); //utdrag av 50 första orden av content. 
                                 ?>
                                 </p>
 							</article>
