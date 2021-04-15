@@ -21,9 +21,39 @@ register_sidebar(
     ]
 );
 
+register_sidebar(
+    [
+        'name' => 'footerWidget3',
+        'description' => 'Socials',
+        'id' => 'f3',
+        'before_widget' => false,
+    ]
+);
 
-register_nav_menu('footerMenu', 'Footer meny');
-register_nav_menu('headerMenu', 'Header meny');
+register_sidebar(
+    [
+        'name' => 'undersida-nav',
+        'description' => 'MenyUndersida',
+        'id' => 'u1',
+        'before_widget' => false,
+    ]
+);
+
+
+function register_menus() {
+register_nav_menu('header-menu', 'header-meny');
+register_nav_menu("undersida-menu", "undersida menu"); 
+}
+
+add_action('after_setup_theme', 'register_menus');
+
+
+
+
+
+
+
+
 
 
 

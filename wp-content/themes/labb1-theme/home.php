@@ -42,7 +42,7 @@ get_header();
 								</ul>
 								<p> 
                                     <?php 
-                                the_content();
+                                the_excerpt();
                                 ?>
                                 </p>
 							</article>
@@ -132,7 +132,7 @@ get_header();
 					</div>
 				</div>
 			</section>
-			
+
 		</main>
 
 
