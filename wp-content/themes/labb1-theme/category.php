@@ -6,14 +6,14 @@ get_header();
 	<div class="row">
 		<div id="primary" class="col-xs-12 col-md-9">
 			<h1>
-                <?= the_archive_title();?>
+                <?php the_archive_title();?>
             </h1>
 			<?php 
 				while(have_posts()) {
 				the_post(); 
 			?>
 				<article>
-					<img src="<?= get_the_post_thumbnail_url()?>"/>
+					<img src="<?php get_the_post_thumbnail_url()?>"/>
 					<h2 class="title">
 						<a href="<?php the_permalink();?>"><?php the_title();?></a>
 					</h2>

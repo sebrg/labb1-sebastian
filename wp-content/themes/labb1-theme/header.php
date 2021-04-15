@@ -30,7 +30,7 @@
 						<form id="searchform" class="searchform">
 							<div>
 							<?php 
-							dynamic_sidebar('search');
+							dynamic_sidebar('search'); //sökfält
                             ?>
 							</div>
 						</form>
@@ -48,9 +48,9 @@
 		<div class="mobile-search">
 			<form id="searchform" class="searchform">
 				<div>
-					<label class="screen-reader-text">Sök efter:</label>
-					<input type="text" />
-					<input type="submit" value="Sök" />
+						<?php 
+							dynamic_sidebar('search');
+                            ?>
 				</div>
 			</form>
 		</div>
