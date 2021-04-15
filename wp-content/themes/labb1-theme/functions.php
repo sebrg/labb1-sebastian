@@ -30,15 +30,31 @@ register_sidebar(
     ]
 );
 
+
 register_sidebar(
     [
-        'name' => 'undersida-nav',
-        'description' => 'MenyUndersida',
-        'id' => 'u1',
+        'name' => 'head-search',
+        'description' => 'search-bar-header',
+        'id' => 'search',
         'before_widget' => false,
     ]
 );
 
+register_sidebar(
+    [
+        'name' => 'home-sidebar',
+        'description' => 'home-sidebar',
+        'id' => 'home-sidebar',
+    ]
+);
+
+register_sidebar(
+    [
+        'name' => 'categories',
+        'description' => 'categories',
+        'id' => 'categories',
+    ]
+);
 
 function register_menus() {
 register_nav_menu('header-menu', 'header-meny');
