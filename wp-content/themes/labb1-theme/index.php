@@ -1,5 +1,5 @@
 <?php 
-get_header();
+get_header(); //hämtar header-filen
 ?>
 		<main>
         <?php 
@@ -30,6 +30,6 @@ get_header();
             ?>
 		</main>
 <?php 
-get_footer();
+get_footer(); //hämtar footer-filen
 ?>
 		

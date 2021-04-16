@@ -16,7 +16,7 @@
 					<div class="col-xs-12 col-sm-3 col-md-3 col-md-offset-1">
 						<ul class="social">
 						<?php 
-							dynamic_sidebar('f3');
+							dynamic_sidebar('f3'); //social media, får ej in ikoner
                             ?>
 						</ul>
 					</div>
