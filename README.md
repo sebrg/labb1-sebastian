@@ -1,3 +1,3 @@
 # labb1-sebastian
 
-Wordpress-exercise
+First Wordpress assignment.. 
